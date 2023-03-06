@@ -1,0 +1,66 @@
+baseURL = "http://localhost:1313/"
+title = "CryotoTrix - Web3"
+keywords = "CryptoTrix"
+description = "CryptoTrix Web3 Site"
+theme = "onelou"
+paginate = 10
+hasCJKLanguage = true
+languageCode = "en-us"
+
+[module.hugoVersion]
+extended = true
+min = "0.87.0"
+
+[params.opengraph]
+github = "https://github.com/mike24dzy"
+twitter = "https://twitter.com/CryptoTrix1"
+youtube = "https://youtube.com/@cryptotrix"
+
+[params.footer]
+hidePowered = true
+since = 2022
+copyright = "All Rights Reserved. CryptoTrix 2023"
+
+[params.prefix]
+h2 = "※ "
+h3 = "✧ "
+
+[[menu.navs]]
+name = "Blogs/Research Updates"
+url = "/post/"
+weight = 1
+
+  [menu.navs.params]
+  img = "/img/research.png"
+
+[[menu.navs]]
+name = "Web3 Study Notes"
+weight = 2
+url = "/note/"
+
+  [menu.navs.params]
+  img = "/img/study.png"
+
+[[menu.navs]]
+name = "Web3/Blockchain Projects"
+url = "/projects/"
+weight = 2
+
+  [menu.navs.params]
+  img = "/img/projects.png"
+
+[[menu.navs]]
+name = "About Us"
+url = "/about"
+weight = 3
+
+  [menu.navs.params]
+  img = "/img/cryptotrix.png"
+
+# [[menu.navs]]
+# name = 404
+# url = "/404.html"
+# weight = 4
+
+#   [menu.navs.params]
+#   img = "/img/logo3.png"
