@@ -4,3 +4,5 @@
 
 
 ## This website is basically a space for us to post and share our learnings and research in the Web3 space, and also blog posts on news and opinions. Feel free to subscribe to our channel and follow us on twitter!
+
+### The template used for this website is from Hugo Template - OneLou (https://github.com/jyygithub/hugo-theme-onelou.git). Big shout out to the creator of the template! 
